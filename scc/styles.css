@@ -1,0 +1,183 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+    --footer-color: #2F303A;
+    --button-color: #188CE8;
+    --accent-white-color: rgba(255, 255, 255, 0.6);
+}
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+    font-family: Roboto, sans-serif; 
+    letter-spacing: 0.03em;
+}
+h1,
+h2,
+h3 {
+    color: var(--title-text-color);
+}
+
+li {
+    list-style-type: none;
+}
+/* Хедер */
+.logo{
+    font-family: 'Raleway';
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+
+.firstpart {
+    color: var(--accent-color);
+}
+.secondpart {
+    color: var(--primary-white-color);
+}
+
+.navigation {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+.link {
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.current ,
+.navigation .link:hover ,
+.navigation .link:focus {
+    color: var(--accent-color);
+}
+.navigation-link:current {
+    color: var(--accent-color);
+}
+.navigation.contacts .link {
+   color: var(--primary-text-color);
+}
+
+.contacts .link:hover ,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+/* < !-- Заглавная секция --> */
+
+.slogan {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--primary-white-color);
+}
+.headline {
+    background-color: var(--footer-color); 
+}
+.hero-title {
+    font-family: inherit;
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+.hero-title:hover,
+.hero-title:focus {
+    background-color: var(--button-color);
+}
+/* < !-- Наши преимущества --> */
+
+.benefit {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.44;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.benefit-list {
+    
+    font-size: 14px;
+    line-height: 1.7;
+}
+/* < !-- Чем мы занимаемся -->< !-- Наша команда --> */
+.title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.7;
+    color:  var(--title-text-color);
+}
+.team {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    color: var(--title-text-color);
+}
+.prof-team {
+    
+    font-size: 16px;
+    line-height: 1.19px;
+}
+/* Футер */
+footer {
+    background-color: var(--footer-color);
+}
+.adress {
+    font-style: normal;
+
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--primary-white-color);
+}
+.adress .link {
+    color: var(--accent-white-color);
+}
+.adress .link:hover,
+.adress .link:focus {
+    color: var(--accent-color);
+}
+
+/* < !--Наши работы--> */
+
+.filter {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    color: var(--title-text-color);
+    cursor: pointer;
+}
+
+.filter:hover ,
+.filter:focus {
+    background-color: var(--accent-color);
+    color: var(--primary-white-color);
+}
+.projects-link {
+    text-decoration: none;
+}
+.projects {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-text-color);
+    text-decoration: none;
+}
+.projects-type {
+    
+    font-size: 16px;
+    line-height: 1.88;
+    color: var(--primary-text-color);
+}
