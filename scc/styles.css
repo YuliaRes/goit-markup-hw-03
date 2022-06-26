@@ -358,6 +358,7 @@ header {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
+
 .cards-set {
     display: flex;
     flex-wrap: wrap;
@@ -393,4 +394,7 @@ header {
     font-size: 16px;
     line-height: 1.88;
     color: var(--primary-text-color);
+}
+section {
+    margin-bottom: 94px;
 }
