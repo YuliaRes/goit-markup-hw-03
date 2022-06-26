@@ -395,6 +395,6 @@ header {
     line-height: 1.88;
     color: var(--primary-text-color);
 }
-section {
+.filter-list {
     margin-bottom: 94px;
 }
